@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unacademy</title>
+</head>
+<style>
+    .para{
+        display: flex;
+          justify-content: space-between; 
+        
+        margin: 0px;
+        padding:0px;
+        
+        
+
+    }
+    .head{
+        display:flex;
+        
+        
+        
+        
+    }
+    .head2{
+        margin-left: 700px;
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+    .button1{
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        padding-right: 10px;
+        margin-right:30px;
+        margin-top: 5px;
+    }
+    .button2{
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        margin-top: 5px;
+
+        
+
+    }
+    .para11{
+        font-size: 50px;
+        
+
+    }
+    .para1{
+        margin-left: 120px;
+
+    }
+    .button3{
+        margin-left: 120px;
+        width: 450px;
+        height: 40px;
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 4px;
+        margin-top: -60px;
+
+    }
+    .para12{
+        margin-top: -50px;
+    }
+    .extra{
+        margin-left: 120px;
+    }
+    .login{
+        width:100px;
+
+    }
+    .goal-input{
+        width: 1150px;
+        height:40px;
+        border-radius: 5px;
+    }
+    .ph{
+        width:430px;
+        height:30px;
+        border-radius: 5px;
+    }
+    .otp{
+        color: rgb(60,72,80);
+    }
+    .goal2{
+        color:rgb(60,72,80);
+        margin-top: 80px;
+    }
+    .xxtra{
+        color:rgb(60,72,80);
+    }
+    .box1{
+        margin-left: 120px;
+        height:200px;
+        width:200px;
+        border:2px solid whitesmoke;
+        padding-left: 70px;
+        padding-top: 20px;
+        border-radius: 8px;
+
+        
+    }
+    .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover{
+        background-color:whitesmoke;
+        cursor: pointer;
+        
+    }
+     .box2{ 
+        margin-left:30px ;
+        padding-left: 60px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+    } 
+    .box3{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    .box4{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    
+    
+    .box5{
+        margin-left:120px ;
+        padding-left: 80px;
+        width:190px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+        
+    }
+    .box6{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px;
+        border-radius: 8px;
+
+    }
+    .box7{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+    .box8{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+     .container{
+        display: flex;
+        
+     }
+
+     .content1{
+        margin: 20px 30px 40px 5px;
+     }
+
+     .content2{
+        margin: 20px 40px 40px 30px;
+
+     }
+    .content3{
+        margin:30px 40px 40px 20px;
+
+    }
+    .content4{
+        margin: 20px 40px 40px 10px;
+
+    }
+    .container1{
+        display: flex;
+    }
+    .content5{
+        margin: 20px 40px 20px -10px;
+    }
+    .content6{
+        margin:20px 40px 40px 1px;
+    }
+    .content7{
+        margin:20px 40px 40px 1px;
+    }
+    .content8{
+        margin:20px 40px 40px -20px;
+    }
+    .box9{
+        border:2px solid rgb(60,72,80);
+        width:160px;
+        height:12px;
+        margin-left: 120px;
+        padding:15px;
+        border-radius: 8px;
+        margin-top: 50px;
+        border-width: 2px;
+
+
+    }
+    .box10{
+        display: flex;
+        height:370px;
+        width: 1056px;
+        margin-left: 60px;
+        padding: 40px;
+        border: 2px solid rgb(240,244,247);
+        border-radius: 8px;
+        
+    }
+    .intro{
+        margin-top: -70px;;
+        margin-left: 60px;
+        padding: 60px;
+        margin-right: 40px;
+    }
+    .inner{
+        color: gray;
+        font-weight: lighter;
+        
+    }
+    .list{
+        color: blue;
+        margin-left: -40px;
+    }
+    .buton{
+        background-color: rgb(60,72,80);
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        
+    }
+    .container3{
+        display:flex;
+        justify-content: space-evenly;
+        width: 1136px;
+        height: 407px;
+        margin-left: 70px;
+        margin-top: 60px;
+        
+
+    }
+    .img1{
+        width:336px;
+        height: 252px;
+
+    }
+    .img2{
+        width:336px;
+        height: 252px;
+
+
+    }
+    .img3{
+        width:336px;
+        height: 252px;}
+
+    .container4{
+        margin-left: 70px;
+        display: flex;
+        width: 1146px;
+        height: 404px;
+        justify-content: space-evenly;
+        border:2px solid rgb(240,244,247);
+        border-radius: 10px;
+        margin-top: 100px;
+
+    }
+    .div1{
+        margin-left: 120px;
+        margin-top: 100px;
+        
+        
+        
+    }
+    .class1{
+        font-size: 20px;
+        width:350px;
+        color: rgb(60,72,80);
+        margin-top: -30px;
+        
+
+    }
+    .img11{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .container5{
+        width:1136px;
+        height:586px;
+        padding: 30px;
+        display: flex;
+
+    }
+    .p11{
+        font-size: 50px;
+        font-weight: 80px;
+        margin-left: -40px;
+        margin-top: -60px;
+    }
+    .h1{
+        width: 465px;
+        height: 96px;
+        font-size: 50px;
+        font-weight: 60px;
+        margin: 70px;
+        margin-top: 300px;
+        
+
+    }
+    .ph{
+        margin-top: 50px;
+    }
+
+    .Pp{
+        font-size: 20px;
+        color: rgb(60,72,80);
+        width: 364px;
+        height: 64px;
+        margin-left: 70px;
+        margin-top: 60px;
+    }
+    .butu{
+        background-color: #08BD80;
+        color:#FFFFFF;
+        border-color: #08BD80;
+        width: 180px;
+        height: 50px;
+        margin-left: 70px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .boox1{
+        width:280px;
+        height:185px;
+        margin-left: -120px;
+        margin-top: 50px;
+    }
+    .boox2{
+        width:280px;
+        height:185px;
+        margin-top: 130px;
+        margin-left: 150px;
+        
+
+        
+    }
+    .boox3{
+        margin-top: 280px;
+        margin-left: -720px;
+        
+    }
+    .boox4{
+        margin-top: 570px;
+        margin-left: -420px;
+        
+    }
+    .boox5{
+        margin-top: 500px;
+        
+    }
+    .h22{
+        color:#7A8B94;
+        font-weight: lighter;
+        margin-top: 20px;
+        width: 300px;
+        height: 60px;
+        margin-left: 120px;
+    }
+    .immg{
+        padding-top: 500px;
+        margin-left: 80px;
+    }
+    .pipi2{
+        margin-top: -10px;
+        padding-left: 120px;
+    }
+    .pipi{
+        margin-top:-10px;
+        margin-left: 120px;
+    }
+     .h3{
+        margin-top: 240px;
+        margin-left: 120px;
+
+        }
+        .container6{
+            display: flex;
+            
+            
+        }
+    
+    .i{
+        height:20px;
+        width:20px;
+
+    }
+    .ph{
+        padding-left: 100px;
+        width: 300px;
+        
+    }
+    .p622{
+        margin-top:500px;
+        margin-right: 20px;
+        color:#7A8B94;
+    }
+    .p621{
+        margin-top:500px;
+        margin-left: -100px;
+        color:#7A8B94;
+        
+    }
+    .p623{
+        margin-top:500px;
+        margin-left:20px;
+        color:#7A8B94;
+
+    }
+    .d3{
+        margin-top: 600px;
+        margin-left: -420px;
+        color:#7A8B94;
+        
+    }
+    .p62{
+        margin-left: 400px;
+    }
+    
+    .main{
+    display:flex;
+    padding-top:100px;
+    padding-left:120px;
+}
+.first{
+    height:60PX;
+    width:150px;
+    background-color: black;
+    border-radius:15px;
+}
+.second{
+    height:60PX;
+    width:150px;
+    margin-left:15px;
+    background-color: black;
+    border-radius:15px;
+}
+img{
+    padding-top:15px;
+    padding-left: 15px;
+}
+.d3{
+    /* border: 2px solid #08BD80; */
+    position: relative;
+    margin-bottom: 10px;
+    height: 10px;
+}
+.input-box-india {
+    border: 2px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+} 
+#number{
+    width: 100%;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    
+}
+#india-img{
+    margin-bottom: 15px;
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+}
+.tc1{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.h8{
+    padding-left: 450px;
+    
+
+}
+ 
+    
+</style>
+
+<body>
+    <div class="head">
+     <div class="head1"> 
+        <img src="image.png" alt="">
+
+     </div> 
+     <div class="head2"> 
+        <img src="logo1.png" alt="">
+        </div>
+        <div>
+         <!-- <div class="head3">  -->
+        <button class="button1"><a href="login.html">Log in</a></button>
+        </div>
+
+
+        <button class="button2">Join for free</button>
+        <!-- </div> -->
+         </div> 
+         <h1  class="h8">Terms and Conditions</h1>
+         <br>
+         <br>
+         <div class="tc1"> <h2> A. About Unacademy and the platform </h2>
+            A. About Unacademy and the Platform
+In India, the Platform is owned, managed, operated and offered by Sorting Hat Technologies Private Limited, a company incorporated under the (Indian) Companies Act, 2013, having its registered office at Maruti Infotech Centre, 3rd Floor, A-Block, Domlur, Koramangala Inner Ring Road, Bangalore- 560 071, India (“Unacademy India”). In any jurisdiction other than India, wherever Services are rendered through the Platform, the same is offered by Unacademy India and / or its affiliates (as relevant pursuant to appropriate intra group contractual arrangements). For knowing with which entity of Unacademy your Agreement will be, please refer the list in Annexure A below.
+
+         
+         
+        
+         
+        
+           <h2> B. Platform Services: </h2>
+Unacademy Platform is an online service platform enabling Content Providers to create and offer content in various formats including without limitation audiovisuals, audio, pre-recorded audiovisuals, live audiovisuals and/or in written form in a diverse range of categories through various modes and means (“Content Provider Content”) and publish and make available such Content Provider Content to the Learners. Unacademy acts as an intermediary between the Content Providers and Learners [in accordance with the Information Technology Act, 2000, or the Digital Millennium Copyright Act (as amended from time to time)] or other equivalent / similar legislations and makes available the Content Provider Content to the Learners, including through subscription offerings ( refer to the Subscription Terms below to know more). Unacademy may also offer, either directly or indirectly (through other third party platforms), other incidental and ancillary services which may include without limitation question banks, mock tests, doubt-solving solutions, Live Mentorship ( as explained here ), live videos (as explained as explained here ), contests, scholarships, webinars and events (physical and/or online) and facilitating discussion forums.
+
+
+
+Further, Unacademy may offer certain products/services to you in collaboration with one or more of the Unacademy Group Platforms ( as defined under the Privacy Policy). In such cases, to the extent that such product/services are made available to you through the Platform, the Platform Terms shall continue to apply to you.
+
+
+
+For the purpose of the Platform Terms, usage of the terms “Platform Services”/ “Services” shall mean and include all the services referred to in this section and such other products or services as may be offered by Unacademy.
+
+
+
+You agree and acknowledge that Unacademy has no control over and assumes no responsibility for, the User-generated Content ( as defined under the ‘Intellectual Property section below) and by using the Platform, you expressly relieve Unacademy from any and all liability arising from the User-generated Content.
+
+
+
+You agree and acknowledge that Unacademy shall have the right at any time to change or discontinue any Service, product, aspect, or feature of the Platform, including without limitation to, the User-generated Content (to the extent it is permitted to, or required, by virtue of being an intermediary), its availability and Supported/Compatible device required to access or use the Services. Unacademy reserves the right to terminate your Subscription and / or restrict your access to the Platform, if you choose not to provide / partially provide the requested information.
+
+
+    
+           <h2> C. Right to Access and Account Creation </h2>
+As a Learner, to access the Platform and use certain Services, you will be required to register and create an account on the Platform by providing the requested details.
+
+
+To register on the Unacademy Platform you must meet the ‘Age Requirements’ specified hereinbelow. By using the Unacademy Platform, you, through your actions, affirm that the Age Requirements are met.
+
+
+You can register on the Platform for free however, certain Services offered on the Platform may be chargeable. Please review the Service offerings on our Site or Application(s). You are not obligated to purchase any product or use any Service offered on the Platform.
+
+
+Age Requirements to register and use on the Platform (“Age Requirements”):
+
+
+If you are a resident of India or any other country (except USA, UK or EU countries), then you must have attained at least 18 (eighteen) years of age to register and use the Unacademy Platform;
+
+
+If you are a resident of the European Union (EU) country and have attained at least 16 (sixteen) years of age, then you are permitted to register and use the Unacademy Platform; and
+
+
+If you are a resident of the United States of America (USA) or United Kingdom (UK) and have attained at least 13 (thirteen) years of age, then you can register and use the Unacademy Platform.
+
+
+If you are a resident of the US, UK or EU countries and are between the ages 13 and 18/ 16 and 18 respectively or if you are resident of any other country and are considered to be of any age determined for use of internet services but are less than the contractual age determined by the applicable laws of such country, then by using the Platform, you confirm to us that your use of the Platform is with the permission of your Parent(s) (as defined below), and your Parent has read, agreed and accepted to the Agreement; and in the event of any dispute between you and Unacademy pursuant to your Agreement with us, the terms of our Agreement shall be applicable to and enforceable against your Parent.
+
+          
+          
+           <h2> D. Subscription terms </h2>
+For Learners, Unacademy does not charge any fee for registration and account creation. However, certain Services offered by Unacademy may be chargeable. Accordingly, access to certain Services and features is offered by Unacademy through a multi- tiered paid subscription plan(s) or purchases; the details of the Services and applicable features along with their corresponding prices can be found on our Site and/or Application (“Subscription”/ “Subscription Service”). You can purchase Subscriptions by following the instructions you encounter as you navigate through the Platform.
+
+
+The terms that are applicable to Your purchase of Subscription(s) -
+
+Purchase of a Subscription will allow you access only to the content available under the category of content for which you have purchased the Subscription.
+
+The Services offered, and the validity/term of your Subscription (“Subscription Period”)may vary depending on the plan you may purchase. Hence, before you proceed to purchase any Subscription, please read and understand the details of the Subscription(s) you intend to purchase on the Platform. If you are unclear about any part of the Subscription offering or need further clarification, then please feel free to write to us prior to your purchase at email address provided in the ‘Contact for User Support/Queries’ section below.
+
+We may personalize Services and feature them as part of Subscriptions, including showing you recommendations on content in the subscribed category, and other related categories that might be of interest to you. We also endeavor to continuously improve the Subscription offerings to improve your Platform experience.
+
+Subscription Period may be extended upon renewal of your already purchased Subscription. The terms of renewal, if any, can be found on our Site and/or Application. However, please note that the prices may stand revised from the time of your first purchase of the Subscription.
+
+The Subscription is of a personal nature and is solely for the benefit of the person subscribing and is not allowed to be resold by you or transferred to or shared with any other person for consideration or otherwise. In the event we get to know that any User has resold / transferred / shared Subscription with another person, then Unacademy retains the right to cancel/terminate the Subscription forthwith.
+
+Due to the limitations, if any, imposed on us by our Content Providers (who own the Content Provider Content), the Content Provider Content we make available to you under any Subscription offering are subject to restrictions on viewing access and on the length of time we make them available to you. These restrictions may change over time as we add new features, devices and content to our Subscription Service. Illustratively, following are some of the restrictions that are applicable to your access to the content (made available through Subscription Service or otherwise):
+
+Live – Streaming of Content Provider Content/ Live Videos: You will get access to attend live videos (in other words, live- streamed content), if the same is offered as part of your purchased Subscription. The access shall be available to you through the Platform during the Subscription Period and shall be subject to the Platform Terms including the Live Videos Terms and Conditions. Please be sure to use a Supported/Compatible device (refer to the ‘Right to Access and Account Creation’ section above) while accessing the live videos.
+
+Viewing Period: Depending on the Subscription, we may make available the recorded versions of any relevant live video to you for continued viewing on the Platform (which may include in-app downloading as mentioned below) during your Subscription Period. Please note that availability of the recorded versions of any relevant live video content for your subsequent access on the Platform is subject to our agreements with the Content Providers, and we do not in any manner guarantee the availability of the same for any reason whatsoever.
+
+In-App Downloading: Depending upon your Subscription, you may only have an option to do in-app downloads and the downloaded content can be viewed by you during the Subscription Period. After downloading the Content Provider Content, you shall have access to the same for the Subscription Period only and all access to the downloaded content shall be removed on expiry or termination of your Subscription, as the case maybe.
+
+Quality of Streaming: The resolution and quality of the content you receive will depend on a number of factors, including the type of Compatible Device on which you are accessing the Content Provider Content and your bandwidth, which may increase or decrease over the course of your viewing. While we strive to provide you a high-quality viewing experience, we make no guarantee as to the resolution or quality of the content you will see when streaming.
+
+Depending on the Subscription Service you have purchased, you may be given access to certain additional Services and features. The additional terms applicable to each of these additional Services may be made available to you on the Platform in the form of terms and conditions or FAQs (Frequently Asked Questions) for that specific Service or may be otherwise communicated to you. Hence, please be sure to go through the Platform Terms to understand the additional services, if any made available to you, and how you can avail the same.
+
+
+
+
+
+
+          
+            
+
+<h2>E. Pricing, Payments and Refunds </h2>
+Pricing and Payments: You can purchase a Subscription Service of your choice for any category(ies) of content by following instructions on the Platform and making the payment applicable for the Subscription you intend to purchase.
+
+
+Please read the below terms applicable for the purchase of your Platform Subscription. The below terms are to be read with any other terms communicated to you at the time of purchase of your Subscription:
+
+You agree to pay all Subscription fees and charges that are attributable to your account on the Platform and that you are solely responsible for payment of these fees and charges. The Subscriptions are payable in full and in advance and are valid until the completion of the applicable Subscription Period or until otherwise cancelled or terminated in accordance with the terms of this Agreement.
+
+If you have specifically authorized us, then the payments for the applicable Subscriptions are automatically charged at the beginning of each billing period, unless you withdraw your authorization or submit a cancellation request to us directly through your account prior to the start of the billing period or in writing via email to the address specified in the ‘Contact for User Support/Queries’ section below. The payment for your Subscription will be charged upon the anniversary of its billing period if the payments for Subscription are in more than a single tranche. Subject to your specific authorization and applicable laws, you agree that Unacademy may charge any recurring service to the credit card or debit card or account that you provide/link at the time of your first purchase of the Subscription or as updated by you through your account on the Platform, provided such updation takes place prior to upcoming billing period.
+
+If you have not completed payments for your Subscriptions, we may restrict / suspend your access to the Platform until your account becomes current and paid in full.
+          
+           <h2> F. Use of the Platform </h2>
+Subject to the Platform Terms, Unacademy hereby grants you a non- exclusive, non-transferable, non-sublicensable, limited license to access and use the Unacademy Platform for your own personal, non-commercial and private use on an ‘as is’ basis in accordance with these Terms and Conditions and other Platform Terms.
+
+
+Subject to payment of the Subscription fee, and your compliance (as a Learner) with all Platform Terms, Unacademy and the Content Providers grant you (as a Learner) a non- exclusive, non-transferable, non-sublicensable, limited license, during the applicable Subscription Period, to access and view the content you have subscribed to and attend live videos in association with your Subscription, for personal, non-commercial, private use only, in accordance with the Platform Terms. We may automatically remove your access to the content from your Compatible Device after the end of the Subscription Period or in accordance with any restriction mentioned in the Platform Terms.
+
+
+If you are a Content Provider, Unacademy grants you a limited, non-exclusive, non- transferable, non-sublicensable license to access and use the Platform for Your own personal and commercial use in accordance with these Platform Terms and any other agreement(s) that may be executed between you (as a Content Provider) and Unacademy (as applicable). Except as expressly permitted by Unacademy under these Platform Terms or otherwise in writing to you, You will not reproduce, duplicate, copy, sell, redistribute, create derivative works or otherwise exploit the Platform or any portion of the Platform (including but not limited to any copyrighted material, trademarks, or other proprietary information).
+
+
+Except as expressly permitted under any of the Platform Terms or otherwise in writing, you will not reproduce, duplicate, copy, sell, redistribute, create derivative works or otherwise exploit the Platform or any portion of the Platform (including but not limited to any copyrighted material, trademarks, or other proprietary information)
+          
+            G. Content and Conduct
+As a User, you may submit User-generated Content ( as defined under the ‘Intellectual Property’ section below) on the Platform. However, you must understand that Unacademy does not guarantee any confidentiality with respect to any User-generated Content you submit.
+
+You shall be solely responsible for your own User-generated Content and the consequences of submitting and publishing such content on the Platform. You affirm, represent, and warrant that you own or have the necessary licenses, rights, consents, and permissions to publish the User-generated Content that you submit. You further agree that User-generated Content you submit on the Unacademy Platform will not contain third party copyrighted material, or material that is subject to other third-party proprietary rights, unless you have permission from the rightful owner of the material, or you are otherwise legally entitled to post the material and to grant Unacademy the necessary license and rights required under the Platform Terms. You shall solely be responsible for all claims in respect of your User-generated Content published on the Platform.
+
+For clarity, you retain your ownership rights in your User-generated Content. However, you grant a limited license to Unacademy to make available the User-generated Content on the Platform. Please read the ‘Intellectual Property’ section below to know the exact nature of license and rights you grant to Unacademy.
+
+Furthermore, you confirm that you shall not host, display, upload, modify, publish, transmit, store, update or share User-generated Content or any information on the Platform that:
+
+belongs to another person and to which you do not have any right;
+
+is defamatory, obscene, pornographic, invasive of another’s privacy including bodily privacy, insulting or harassing on the basis of gender, libelous, racially or ethnically objectionable, relating or encouraging money laundering or gambling, or otherwise inconsistent with or contrary to the laws in force;
+
+is harmful to a child;
+
+infringes any patent, trademark, copyright or other proprietary rights of another;
+
+violates any law, statue, ordinance or regulation or Platform Terms;
+
+deceives or misleads any User about the origin of the message or knowingly and intentionally communicates any information which is patently false or misleading in nature but may reasonably be perceived as a fact;
+
+impersonates another person;
+
+threatens the unity, integrity, defense, security or sovereignty of India, friendly relations with foreign States, or public order, or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting other nation;
+
+contains software virus or any other computer code, file or program designed to interrupt, destroy or limit the functionality of any computer resource;
+
+is patently false and untrue, and is written or published in any form, with the intent to mislead or harass a person, entity or agency for financial gain or to cause any injury to any person;
+
+False, inaccurate or misleading;
+
+obscene or contain pornography;
+
+Contain any viruses, trojan horses, worms, cancelbots or other computer programming routines that may damage, detrimentally interfere with, surreptitiously intercept, or expropriate any system, data or Personal Information.
+
+Your conduct on the Platform shall strictly be in accordance with the User Guidelines and other Platform Terms.
+
+You understand that as a User you may interact with Minors/Children (refer to ‘Right to Access and Account Creation’ section above) on the Platform; accordingly, you shall make yourself fully aware of our Minor & Learner Interaction Guidelines and conduct yourself in accordance thereof.
+
+You understand and confirm that you shall not during your use of the Unacademy Platform at any time post or publish any content, comments or act in any way which will amount to harassment of any other User. If at any given point it comes to Unacademy’s notice that you have engaged in any kind of harassment of other Users, then in such a case you agree that Unacademy shall have the sole right to suspend/terminate your account with immediate effect and without any notice of such suspension or termination and we also reserve the right in our sole discretion to initiate any legal proceedings against you in such cases.
+
+Unacademy does not endorse any User-generated Content submitted on the Unacademy Platform by any User, or any opinion, recommendation, or advice expressed therein, and Unacademy expressly disclaims any and all liability in connection with User-generated Content. Unacademy does not permit copyright infringing activities and infringement of intellectual property rights on the Unacademy Platform, and Unacademy will remove all User-generated Content if properly notified that such User-generated Content infringes on another’s intellectual property rights in line with its obligations as an ‘intermediary’. Unacademy reserves the right to remove User- generated Content without prior notice if it has reason to believe that the User- generated Content is violative of these Terms and Conditions. Please refer to the Takedown Policy and ‘Copyright, Trademarks and other Intellectual Property Rights’section below to understand the process to notify Unacademy about any infringing content and the process of takedown of infringing content followed by Unacademy.
+
+You shall not engage in any activity that increases/optimizes the User views on any particular Content Provider; these activities, without limitation, include creating multiple fake accounts as Learners, either by yourself or through a third-party.
+
+You shall not engage in any activity that will negatively impact Unacademy and/or other Users of the Platform, including without limitation, activities that involve screen- recording, screen-casting or downloading on any other device of any Content Provider Content (live or recorded) in any manner that is not directly facilitated as feature within the Platform and/or sharing or otherwise publishing such screen-recorded content on third-party platforms, either for a cost or otherwise. If Unacademy becomes aware of your engagement, either by yourself or through a third-party, in any such activity, then Unacademy may immediately terminate your or such User’s access / Subscription along with termination and removal of access to all downloaded content with a right to initiate appropriate legal action, at the sole discretion of Unacademy.
+
+
+
+          
+            <h2>H. Communications </h2>
+When you visit the Platform, you are communicating with us electronically. You may be required to provide a valid phone number while creating any account with us or while enrolling or purchasing any Subscription Service. We may communicate with you by e- mail, SMS, phone call, WhatsApp or by posting notices on the Platform or by any other mode of communication. By providing your information you authorize Unacademy, its affiliates, and their respective employees, agents, and contractors to initiate electronic communications by email, telephone calls, WhatsApp or such other mode of communication with respect to your use of the Platform and regarding the products and services offered by Unacademy and its affiliates. These communications may be made by or on behalf of Unacademy, even if your phone number is registered on any state or federal do not call list. Telephone calls may be recorded. You acknowledge that your telephone operator and/or internet service provider may have levied certain charges on you vis-à-vis your communications with Unacademy as it constitutes availing their services, and you agree to be responsible for all such charges, and Unacademy will not be responsible for any such charges. Do not submit your information if you do not consent to being contacted by telephone, text, email, WhatsApp or such other mode of communication. Further, you will always have an option to unsubscribe / opt out from any promotional communications sent by Unacademy and / or its affiliates either by following the relevant instructions that may be communicated via text, email or such other mode of communication in which you received a promotional communication or by disabling the options provided within your account on the Platform.
+
+
+Please note that –
+
+
+If you opt out of promotional communications, we may still send you transactional communications, such as service announcements, administrative and legal notices, and information about your account, without offering you the opportunity to opt out of these communications. If you no longer wish to use our Platform or receive any communications from us (except for those that are legally required), then you may delete your account by either writing to us at the email address provided under ‘Contact for User Support/Queries’section below by using the option enabled within the Platform; and
+
+opting out of promotional communications only affects future communications from us. If we have already provided your information to a third party (as stated in our Privacy Policy) before you changed your preferences or updated your information, you may have to change your preferences directly with that third party.
+
+We do not sell your Personal Information to third parties
+
+
+Further, in respect of interactions between Users - Unacademy is only an intermediary and does not monitor any of the interactions that take place between Users on the Platform, but Unacademy has clearly laid out the terms and guidelines a User must follow in their conduct on the Platform as part of the Platform Terms; and if Unacademy receives from any User a complaint of misconduct against you, in any form, or if Unacademy otherwise deems necessary, Unacademy reserves the right to suspend or terminate your access to any the Platform or any part thereof at any time, with or without giving any notice or reason.
+
+
+You acknowledge that any User-generated Content (including without limitation any Content Provider Content, chats, postings, or materials posted by the Users) posted by you on part of the Platform, is neither endorsed nor controlled by us. You further understand and agree that you shall be solely responsible for any User-generated Content published by you on the Platform, including its legality, reliability, accuracy, and appropriateness, and shall be solely liable for the consequences of its publication. You represent and warrant that you own and control all rights in and to any User-generated Content uploaded by you on the Platform, or that you have the necessary licenses or permissions or are legally entitled to use and reproduce such User-generated Content on the Platform.
+
+
+
+          </div>
+         
+          <div class="container6">
+             <div class="61">
+             <div class="d1">
+                 <img class="immg" src="image.png" alt="">
+                 <h2 class="h22">
+                     Unacademy is democratising education,making it accessible to all.Join the revolution,learn on India's largest learning platform.
+                 </h2>
+     
+             </div>
+             <div class="main">
+                 <div class="first" style="cursor: pointer;">
+                     <a href="https://www.apple.com/app-store/" target="_blank"> 
+                         <img src="APPSTOROO.jpg" alt="" height="40px"width="100px"> 
+                 </a>
+                 </div>
+                 <div class="second" style="cursor: pointer;"> 
+                     <a href="https://www.youtube.com/" target="_blank">
+                         <img src="googleplay.jpg" alt="" height="40px"width="120px">
+                     </a>
+                 </div> 
+                 </div> 
+             </div>
+             <div class="d3">
+                 <h3 class="h3">Reach out to us</h3>
+                 <p class="pipi">Get your questions answered about learning with Unacademy</p> 
+                 <p class="pipi2">Call +91 8585858585 <br>  <br> <br></p>
+             </div>  
+             
+             <div class="p62">
+     
+     
+             </div>
+             <div class="p621">
+                 <h2 style="font-size: large;"> Company</h2>
+                 <p class="pg1">
+                     About Us <br><br>
+                     Shikshodaya <br><br>
+                     Careers <br><br>
+                     Blogs <br> <br>
+                     Privacy policy <br> <br>
+                     <a href="terms.html" style="text-decoration: none; color:#7A8B94;">Terms and conditions </a>
+     
+     
+                 </p>
+     
+     
+             
+         </div>
+          <div class="p622">
+             <h2 style="font-size:large">Help & support</h2>
+             <p class="pg1">
+                 User Guidelines <br> <br>
+                 Site Map <br> <br>
+                 Refund Policy <br> <br>
+                 Tokedown Policy <br> <br>
+                 Grievance Redressal
+             </p>
+          </div>
+          <div class="p623">
+             <h2 style="font-size: large;">  Company</h2>
+             <p>
+                 <img src="logo.jpg" alt="" class="i">Learner app <br> <br>
+                 <img src="im12.jpg" alt="" class="i">Educator app <br> <br>
+                 <img src="im13.jpg" alt="" class="i">Parent app <br> <br>
+             </p>
+             
+          </div>
+          <br>
+          
+     
+         </div> 
+         
+     
+
+            </body>
+</html>

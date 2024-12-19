@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    para{
+        display: flex;
+          justify-content: space-between; 
+        
+        margin: 0px;
+        padding:0px;
+        
+        
+
+    }
+    .head{
+        display:flex;
+        
+        
+        
+        
+    }
+    .head2{
+        margin-left: 700px;
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+    .button1{
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        padding-right: 10px;
+        margin-right:30px;
+        margin-top: 5px;
+    }
+    .button2{
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        margin-top: 5px;
+
+        
+
+    }
+    .para11{
+        font-size: 50px;
+        
+
+    }
+    .para1{
+        margin-left: 120px;
+
+    }
+    .button3{
+        margin-left: 120px;
+        width: 450px;
+        height: 40px;
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 4px;
+        margin-top: -60px;
+
+    }
+    .para12{
+        margin-top: -50px;
+    }
+    .extra{
+        margin-left: 120px;
+    }
+    .login{
+        width:100px;
+
+    }
+    .goal-input{
+        width: 1150px;
+        height:40px;
+        border-radius: 5px;
+    }
+    .ph{
+        width:430px;
+        height:30px;
+        border-radius: 5px;
+    }
+    .otp{
+        color: rgb(60,72,80);
+    }
+    .goal2{
+        color:rgb(60,72,80);
+        margin-top: 80px;
+    }
+    .xxtra{
+        color:rgb(60,72,80);
+    }
+    .box1{
+        margin-left: 120px;
+        height:200px;
+        width:200px;
+        border:2px solid whitesmoke;
+        padding-left: 70px;
+        padding-top: 20px;
+        border-radius: 8px;
+
+        
+    }
+    .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover{
+        background-color:whitesmoke;
+        cursor: pointer;
+        
+    }
+     .box2{ 
+        margin-left:30px ;
+        padding-left: 60px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+    } 
+    .box3{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    .box4{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    
+    
+    .box5{
+        margin-left:120px ;
+        padding-left: 80px;
+        width:190px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+        
+    }
+    .box6{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px;
+        border-radius: 8px;
+
+    }
+    .box7{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+    .box8{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+     .container{
+        display: flex;
+        
+     }
+
+     .content1{
+        margin: 20px 30px 40px 5px;
+     }
+
+     .content2{
+        margin: 20px 40px 40px 30px;
+
+     }
+    .content3{
+        margin:30px 40px 40px 20px;
+
+    }
+    .content4{
+        margin: 20px 40px 40px 10px;
+
+    }
+    .container1{
+        display: flex;
+    }
+    .content5{
+        margin: 20px 40px 20px -10px;
+    }
+    .content6{
+        margin:20px 40px 40px 1px;
+    }
+    .content7{
+        margin:20px 40px 40px 1px;
+    }
+    .content8{
+        margin:20px 40px 40px -20px;
+    }
+    .box9{
+        border:2px solid rgb(60,72,80);
+        width:160px;
+        height:12px;
+        margin-left: 120px;
+        padding:15px;
+        border-radius: 8px;
+        margin-top: 50px;
+        border-width: 2px;
+
+
+    }
+    .box10{
+        display: flex;
+        height:370px;
+        width: 1056px;
+        margin-left: 60px;
+        padding: 40px;
+        border: 2px solid rgb(240,244,247);
+        border-radius: 8px;
+        
+    }
+    .intro{
+        margin-top: -70px;;
+        margin-left: 60px;
+        padding: 60px;
+        margin-right: 40px;
+    }
+    .inner{
+        color: gray;
+        font-weight: lighter;
+        
+    }
+    .list{
+        color: blue;
+        margin-left: -40px;
+    }
+    .buton{
+        background-color: rgb(60,72,80);
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        
+    }
+    .container3{
+        display:flex;
+        justify-content: space-evenly;
+        width: 1136px;
+        height: 407px;
+        margin-left: 70px;
+        margin-top: 60px;
+        
+
+    }
+    .img1{
+        width:336px;
+        height: 252px;
+
+    }
+    .img2{
+        width:336px;
+        height: 252px;
+
+
+    }
+    .img3{
+        width:336px;
+        height: 252px;}
+
+    .container4{
+        margin-left: 70px;
+        display: flex;
+        width: 1146px;
+        height: 404px;
+        justify-content: space-evenly;
+        border:2px solid rgb(240,244,247);
+        border-radius: 10px;
+        margin-top: 100px;
+
+    }
+    .div1{
+        margin-left: 120px;
+        margin-top: 100px;
+        
+        
+        
+    }
+    .class1{
+        font-size: 20px;
+        width:350px;
+        color: rgb(60,72,80);
+        margin-top: -30px;
+        
+
+    }
+    .img11{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .container5{
+        width:1136px;
+        height:586px;
+        padding: 30px;
+        display: flex;
+
+    }
+    .p11{
+        font-size: 50px;
+        font-weight: 80px;
+        margin-left: -40px;
+        margin-top: -60px;
+    }
+    .h1{
+        width: 465px;
+        height: 96px;
+        font-size: 50px;
+        font-weight: 60px;
+        margin: 70px;
+        margin-top: 300px;
+        
+
+    }
+    .ph{
+        margin-top: 50px;
+    }
+
+    .Pp{
+        font-size: 20px;
+        color: rgb(60,72,80);
+        width: 364px;
+        height: 64px;
+        margin-left: 70px;
+        margin-top: 60px;
+    }
+    .butu{
+        background-color: #08BD80;
+        color:#FFFFFF;
+        border-color: #08BD80;
+        width: 180px;
+        height: 50px;
+        margin-left: 70px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .boox1{
+        width:280px;
+        height:185px;
+        margin-left: -120px;
+        margin-top: 50px;
+    }
+    .boox2{
+        width:280px;
+        height:185px;
+        margin-top: 130px;
+        margin-left: 150px;
+        
+
+        
+    }
+    .boox3{
+        margin-top: 280px;
+        margin-left: -720px;
+        
+    }
+    .boox4{
+        margin-top: 570px;
+        margin-left: -420px;
+        
+    }
+    .boox5{
+        margin-top: 500px;
+        
+    }
+    .h22{
+        color:#7A8B94;
+        font-weight: lighter;
+        margin-top: 20px;
+        width: 300px;
+        height: 60px;
+        margin-left: 120px;
+    }
+    .immg{
+        padding-top: 500px;
+        margin-left: 80px;
+    }
+    .pipi2{
+        margin-top: -10px;
+        padding-left: 120px;
+    }
+    .pipi{
+        margin-top:-10px;
+        margin-left: 120px;
+    }
+     .h3{
+        margin-top: 240px;
+        margin-left: 120px;
+
+        }
+        .container6{
+            display: flex;
+            
+        }
+    
+    .i{
+        height:20px;
+        width:20px;
+
+    }
+    .ph{
+        padding-left: 100px;
+        width: 300px;
+        
+    }
+    .p622{
+        margin-top:500px;
+        margin-right: 20px;
+        color:#7A8B94;
+    }
+    .p621{
+        margin-top:500px;
+        margin-left: -100px;
+        color:#7A8B94;
+        
+    }
+    .p623{
+        margin-top:500px;
+        margin-left:20px;
+        color:#7A8B94;
+
+    }
+    .d3{
+        margin-top: 600px;
+        margin-left: -420px;
+        color:#7A8B94;
+        
+    }
+    .p62{
+        margin-left: 400px;
+    }
+    
+    .main{
+    display:flex;
+    padding-top:100px;
+    padding-left:120px;
+}
+.first{
+    height:60PX;
+    width:150px;
+    background-color: black;
+    border-radius:15px;
+}
+.second{
+    height:60PX;
+    width:150px;
+    margin-left:15px;
+    background-color: black;
+    border-radius:15px;
+}
+img{
+    padding-top:15px;
+    padding-left: 15px;
+}
+.d3{
+    /* border: 2px solid #08BD80; */
+    position: relative;
+    margin-bottom: 10px;
+    height: 10px;
+}
+.input-box-india {
+    border: 2px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+} 
+#number{
+    width: 100%;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    
+}
+#india-img{
+    margin-bottom: 15px;
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+}
+.pp1{
+    height: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.pp2{
+    margin-top: 50px;
+}
+ 
+    
+</style>
+
+<body>
+    <div class="head">
+     <div class="head1"> 
+        <img src="image.png" alt="">
+
+     </div> 
+     <div class="head2"> 
+        <img src="logo1.png" alt="">
+        </div>
+        <div>
+         <!-- <div class="head3">  -->
+        <button class="button1"><a href="login.html">Log in</a></button>
+        </div>
+
+
+        <button class="button2">Join for free</button>
+        <!-- </div> -->
+         </div> 
+        
+        
+        <div class="pp1">
+           <h2> A. General </h2>
+In addition to our Terms and conditions Service, Unacademy respects your privacy and is committed to protecting it. This Privacy Policy (the “Policy”) explains the types of information collected by Unacademy when you use the Platform (as defined in Terms and conditions) that references this Policy, how we collect, use, share and store such information collected and also explains the rationale for collection of such information, the privacy rights and choices you have regarding your information submitted to us when you use the Services.
+
+
+For ease of reference, use of the terms “Unacademy”, “we”, “us, and/or “our” refer to Sorting Hat Technologies Private Limited – a company incorporated in India and all of its affiliates which have license to host the Platform and offer Services. Similarly, use of the terms “you”, “yours” and/or “User(s)” refer to all users of the Platform and includes all Learners and Content Providers (as more particularly defined under our Terms and conditions).
+
+
+The Services are governed by this Policy, Terms and conditions, and any other rules, policies or guidelines published on the Platform as applicable to you. Please read this Policy carefully prior to accessing our Platform and using the Services. By accessing and using the Platform, providing your Personal Information (defined below), or by otherwise signalling your agreement when the option is presented to you, you consent to the collection, use, disclosure, sharing and storing of information described in this Policy, Terms of Service and any other rules, policies or guidelines published on the Platform as applicable to you (collectively referred to as the “Platform Terms”), and Unacademy disclaims all the liabilities arising therefrom. If you have inadvertently submitted any Personal Information to Unacademy prior to reading this Policy statements set out herein, or you do not agree with the way your Personal Information is collected, stored, or used, then you may access, modify and/or delete your Personal Information in accordance with this Policy (refer to the sections about Your Choices and Your Rights).
+
+
+If any information you have provided or uploaded on the Platform violates the Platform Terms, Unacademy may be required to delete such information upon informing you of the same and revoke your access to the Platform if required.
+
+
+Capitalized terms used but not defined in this Policy can be found in our Terms and conditions.
+
+
+If you have any questions about this Policy, please contact us atprivacy@unacademy.com.
+
+
+
+
+
+        
+    <h2>B.Applicabilty</h2>
+        
+This Policy applies to all Users of the Platform.
+
+
+Unacademy owns and/or manages several platforms (other than the Platform) that offer a range of services including services related to technology solutions in the space of education, either by itself or through its affiliates and subsidiaries (“Unacademy Group Platforms”). Each of the Unacademy Group Platforms have published their own privacy policies. Accordingly, this Policy does not apply to information collected through the Unacademy Group Platforms and only applies to the collection of your information through the Platform. Please visit the relevant Unacademy Group Platform to know the privacy practices undertaken by them.
+
+
+Unacademy has taken reasonable precautions as per applicable laws and implemented industry standards to treat Personal Information as confidential and to protect it from unauthorized access, improper use or disclosure, modification and unlawful destruction or accidental loss of the Personal Information
+
+
+ <h2>C. Access </h2>
+You may be allowed to access and view the Platform as a guest and without creating an account on the Platform or providing any Personal Information; Unacademy does not validate or takes no responsibility towards information, if any, provided by you as a guest, except as otherwise required under any law, regulation, or an order of competent authority. However, to have access to all the features and benefits on our Platform, you are required to first create an account on our Platform. To create an account, you are required to provide certain Personal Information as may be required during the time of registration and all other information requested on the registration page, including the ability to receive promotional offers from Unacademy, is optional. Unacademy may, in future, include other optional requests for information from you to help Unacademy to customize the Platform to deliver personalized information to you. Unacademy may keep records of telephone calls or emails received from or made by you for making enquiries, feedback, or other purposes for the purpose of rendering Services effectively and efficiently.
+
+<h2>D. Use of the Platform/Services by Children</h2>   
+As stated in our Terms and conditions, to register on the Platform you must meet the ‘Age Requirements’ (as defined in our Terms and conditions). If you are a “Minor” or “Child” i.e., an individual who does not meet the Age Requirements, then you may not register on the Platform, and only your Parent (defined below) can register on the Platform on your behalf, agree to all Platform Terms and enable access to you under their guidance and supervision.
+
+
+While some of our Services may require collection of a Child’s Personal Information, we do not knowingly collect such Personal Information from a Child and assume that information has been provided with consent of the Parent. If you are a Parent and you are aware that your Child has provided us with any Personal Information without your consent, please contact us atprivacy@unacademy.com. If we become aware that we have collected Personal Information from a Child in the absence of consent of the Parent, we will take steps to remove such information from our servers.
+
+
+The information in the relevant parts of this notice applies to Children as well as adults. If your Child faces any form of abuse or harassment while availing our Services, you must write to us atlegal@unacademy.com, so that necessary actions could be considered.
+
+
+
+<h2>E.Personal Information</h2>
+“Personal Information” shall mean the information which identifies a User i.e., first and last name, identification number, email address, age, gender, location, photograph and/or phone number provided at the time of registration or any time thereafter on the Platform.
+
+
+“Sensitive Personal Information” shall include (i) passwords and financial data (except the truncated last four digits of credit/debit card), (ii) health data, (iii) official identifier (such as biometric data, aadhar number, social security number, driver’s license, passport, etc.,), (iv) information about sexual life, sexual identifier, race, ethnicity, political or religious belief or affiliation, (v) account details and passwords, or (vi) other data/information categorized as ‘sensitive personal data’ or ‘special categories of data’ under the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011, General Data Protection Regulation (GDPR) and / or the California Consumer Privacy Act (CCPA) (“Data Protection Laws”) and in context of this Policy or other equivalent / similar legislations.
+
+
+Usage of the term ‘Personal Information’ shall include ‘Sensitive Personal Information’ as may be applicable to the context of its usage.
+
+
+We request you to not provide Unacademy with any Personal Information unless specifically requested by us. In the event you share with Unacademy any Personal Information without us having specifically requested for the same, then we bear no liability in respect of such Personal Information provided by you
+
+
+
+
+     </div>  
+     <br>
+     <br> <br>
+     <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br>
+     <br> <br> <br> <br> <br> <br> <br> <br>
+     <div class="container6">
+        <div class="61">
+        <div class="d1">
+            <img class="immg" src="image.png" alt="">
+            <h2 class="h22">
+                Unacademy is democratising education,making it accessible to all.Join the revolution,learn on India's largest learning platform.
+            </h2>
+
+        </div>
+        <div class="main">
+            <div class="first" style="cursor: pointer;">
+                <a href="https://www.apple.com/app-store/" target="_blank"> 
+                    <img src="APPSTOROO.jpg" alt="" height="40px"width="100px"> 
+            </a>
+            </div>
+            <div class="second" style="cursor: pointer;"> 
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="googleplay.jpg" alt="" height="40px"width="120px">
+                </a>
+            </div> 
+            </div> 
+        </div>
+        <div class="d3">
+            <h3 class="h3">Reach out to us</h3>
+            <p class="pipi">Get your questions answered about learning with Unacademy</p> 
+            <p class="pipi2">Call +91 8585858585 <br> <br> <br></p>
+        </div>  
+        
+        <div class="p62">
+
+
+        </div>
+        <div class="p621">
+            <h2 style="font-size: large;"> Company</h2>
+            <p class="pg1">
+                About Us <br><br>
+                Shikshodaya <br><br>
+                Careers <br><br>
+                Blogs <br> <br>
+                Privacy policy <br> <br>
+                <a href="terms.html" style="text-decoration: none; color:#7A8B94;">Terms and conditions </a>
+
+
+            </p>
+
+
+        
+    </div>
+     <div class="p622">
+        <h2 style="font-size:large">Help & support</h2>
+        <p class="pg1">
+            User Guidelines <br> <br>
+            Site Map <br> <br>
+            Refund Policy <br> <br>
+            Tokedown Policy <br> <br>
+            Grievance Redressal
+        </p>
+     </div>
+     <div class="p623">
+        <h2 style="font-size: large;">  Company</h2>
+        <p>
+            <img src="logo.jpg" alt="" class="i">Learner app <br> <br>
+            <img src="im12.jpg" alt="" class="i">Educator app <br> <br>
+            <img src="im13.jpg" alt="" class="i">Parent app <br> <br>
+        </p>
+     </div>
+     
+
+    </div> 
+
+
+
+
+
+    
+</body>
+</html>

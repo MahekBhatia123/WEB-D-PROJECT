@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unacademy</title>
+</head>
+<style>
+    .para{
+        display: flex;
+          justify-content: space-between; 
+        
+        margin: 0px;
+        padding:0px;
+        
+        
+
+    }
+    .head{
+        display:flex;
+        
+        
+        
+        
+    }
+    .head2{
+        margin-left: 700px;
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+    .button1{
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        padding-right: 10px;
+        margin-right:30px;
+        margin-top: 5px;
+    }
+    .button2{
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 5px;
+        height:40px;
+        width:100px;
+        padding:10px;
+        margin-top: 5px;
+
+        
+
+    }
+    .para11{
+        font-size: 50px;
+        
+
+    }
+    .para1{
+        margin-left: 120px;
+
+    }
+    .button3{
+        margin-left: 120px;
+        width: 450px;
+        height: 40px;
+        background-color: rgb(60,72,80);
+        color:white;
+        border-radius: 4px;
+        margin-top: -60px;
+
+    }
+    .para12{
+        margin-top: -50px;
+    }
+    .extra{
+        margin-left: 120px;
+    }
+    .login{
+        width:100px;
+
+    }
+    .goal-input{
+        width: 1150px;
+        height:40px;
+        border-radius: 5px;
+    }
+    .ph{
+        width:430px;
+        height:30px;
+        border-radius: 5px;
+    }
+    .otp{
+        color: rgb(60,72,80);
+    }
+    .goal2{
+        color:rgb(60,72,80);
+        margin-top: 80px;
+    }
+    .xxtra{
+        color:rgb(60,72,80);
+    }
+    .box1{
+        margin-left: 120px;
+        height:200px;
+        width:200px;
+        border:2px solid whitesmoke;
+        padding-left: 70px;
+        padding-top: 20px;
+        border-radius: 8px;
+
+        
+    }
+    .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover{
+        background-color:whitesmoke;
+        cursor: pointer;
+        
+    }
+     .box2{ 
+        margin-left:30px ;
+        padding-left: 60px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+    } 
+    .box3{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    .box4{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        border-radius: 8px;
+
+    }
+    
+    
+    .box5{
+        margin-left:120px ;
+        padding-left: 80px;
+        width:190px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+        
+    }
+    .box6{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px;
+        border-radius: 8px;
+
+    }
+    .box7{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:200px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+    .box8{
+        margin-left:30px ;
+        padding-left: 80px;
+        width:180px;
+        height: 180px;
+        border:2px solid whitesmoke;
+        padding-top:40px;
+        margin-top:20px ;
+        border-radius: 8px;
+
+
+    }
+     .container{
+        display: flex;
+        
+     }
+
+     .content1{
+        margin: 20px 30px 40px 5px;
+     }
+
+     .content2{
+        margin: 20px 40px 40px 30px;
+
+     }
+    .content3{
+        margin:30px 40px 40px 20px;
+
+    }
+    .content4{
+        margin: 20px 40px 40px 10px;
+
+    }
+    .container1{
+        display: flex;
+    }
+    .content5{
+        margin: 20px 40px 20px -10px;
+    }
+    .content6{
+        margin:20px 40px 40px 1px;
+    }
+    .content7{
+        margin:20px 40px 40px 1px;
+    }
+    .content8{
+        margin:20px 40px 40px -20px;
+    }
+    .box9{
+        border:2px solid rgb(60,72,80);
+        width:160px;
+        height:12px;
+        margin-left: 120px;
+        padding:15px;
+        border-radius: 8px;
+        margin-top: 50px;
+        border-width: 2px;
+
+
+    }
+    .box10{
+        display: flex;
+        height:370px;
+        width: 1056px;
+        margin-left: 60px;
+        padding: 40px;
+        border: 2px solid rgb(240,244,247);
+        border-radius: 8px;
+        
+    }
+    .intro{
+        margin-top: -70px;;
+        margin-left: 60px;
+        padding: 60px;
+        margin-right: 40px;
+    }
+    .inner{
+        color: gray;
+        font-weight: lighter;
+        
+    }
+    .list{
+        color: blue;
+        margin-left: -40px;
+    }
+    .buton{
+        background-color: rgb(60,72,80);
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 6px;
+        
+    }
+    .container3{
+        display:flex;
+        justify-content: space-evenly;
+        width: 1136px;
+        height: 407px;
+        margin-left: 70px;
+        margin-top: 60px;
+        
+
+    }
+    .img1{
+        width:336px;
+        height: 252px;
+
+    }
+    .img2{
+        width:336px;
+        height: 252px;
+
+
+    }
+    .img3{
+        width:336px;
+        height: 252px;}
+
+    .container4{
+        margin-left: 70px;
+        display: flex;
+        width: 1146px;
+        height: 404px;
+        justify-content: space-evenly;
+        border:2px solid rgb(240,244,247);
+        border-radius: 10px;
+        margin-top: 100px;
+
+    }
+    .div1{
+        margin-left: 120px;
+        margin-top: 100px;
+        
+        
+        
+    }
+    .class1{
+        font-size: 20px;
+        width:350px;
+        color: rgb(60,72,80);
+        margin-top: -30px;
+        
+
+    }
+    .img11{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .container5{
+        width:1136px;
+        height:586px;
+        padding: 30px;
+        display: flex;
+
+    }
+    .p11{
+        font-size: 50px;
+        font-weight: 80px;
+        margin-left: -40px;
+        margin-top: -60px;
+    }
+    .h1{
+        width: 465px;
+        height: 96px;
+        font-size: 50px;
+        font-weight: 60px;
+        margin: 70px;
+        margin-top: 300px;
+        
+
+    }
+    .ph{
+        margin-top: 50px;
+    }
+
+    .Pp{
+        font-size: 20px;
+        color: rgb(60,72,80);
+        width: 364px;
+        height: 64px;
+        margin-left: 70px;
+        margin-top: 60px;
+    }
+    .butu{
+        background-color: #08BD80;
+        color:#FFFFFF;
+        border-color: #08BD80;
+        width: 180px;
+        height: 50px;
+        margin-left: 70px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .boox1{
+        width:280px;
+        height:185px;
+        margin-left: -120px;
+        margin-top: 50px;
+    }
+    .boox2{
+        width:280px;
+        height:185px;
+        margin-top: 130px;
+        margin-left: 150px;
+        
+
+        
+    }
+    .boox3{
+        margin-top: 280px;
+        margin-left: -720px;
+        
+    }
+    .boox4{
+        margin-top: 570px;
+        margin-left: -420px;
+        
+    }
+    .boox5{
+        margin-top: 500px;
+        
+    }
+    .h22{
+        color:#7A8B94;
+        font-weight: lighter;
+        margin-top: 20px;
+        width: 300px;
+        height: 60px;
+        margin-left: 120px;
+    }
+    .immg{
+        padding-top: 500px;
+        margin-left: 80px;
+    }
+    .pipi2{
+        margin-top: -10px;
+        padding-left: 120px;
+    }
+    .pipi{
+        margin-top:-10px;
+        margin-left: 120px;
+    }
+     .h3{
+        margin-top: 240px;
+        margin-left: 120px;
+
+        }
+        .container6{
+            display: flex;
+            
+            
+        }
+    
+    .i{
+        height:20px;
+        width:20px;
+
+    }
+    .ph{
+        padding-left: 100px;
+        width: 300px;
+        
+    }
+    .p622{
+        margin-top:500px;
+        margin-right: 20px;
+        color:#7A8B94;
+    }
+    .p621{
+        margin-top:500px;
+        margin-left: -100px;
+        color:#7A8B94;
+        
+    }
+    .p623{
+        margin-top:500px;
+        margin-left:20px;
+        color:#7A8B94;
+
+    }
+    .d3{
+        margin-top: 600px;
+        margin-left: -420px;
+        color:#7A8B94;
+        
+    }
+    .p62{
+        margin-left: 400px;
+    }
+    
+    .main{
+    display:flex;
+    padding-top:100px;
+    padding-left:120px;
+}
+.first{
+    height:60PX;
+    width:150px;
+    background-color: black;
+    border-radius:15px;
+}
+.second{
+    height:60PX;
+    width:150px;
+    margin-left:15px;
+    background-color: black;
+    border-radius:15px;
+}
+img{
+    padding-top:15px;
+    padding-left: 15px;
+}
+.d3{
+    /* border: 2px solid #08BD80; */
+    position: relative;
+    margin-bottom: 10px;
+    height: 10px;
+}
+.input-box-india {
+    border: 2px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+} 
+#number{
+    width: 100%;
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    
+}
+#india-img{
+    margin-bottom: 15px;
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+}
+ 
+    
+</style>
+
+<body>
+    <div class="head">
+     <div class="head1"> 
+        <img src="image.png" alt="">
+
+     </div> 
+     <div class="head2"> 
+        <img src="logo1.png" alt="">
+        </div>
+        <div>
+         <!-- <div class="head3">  -->
+        <button class="button1"><a href="login.html">Log in</a></button>
+        </div>
+
+
+        <button class="button2">Join for free</button>
+        <!-- </div> -->
+         </div> 
+        
+    <!-- content -->
+    <div class="para">
+    <div class="para1">
+        <p class="para11"
+        ><b>Crack your goal with <br> india's top educators </b>   </p>
+    <br> <p class="para12"> Over <b style="color:rgb(1,189,128)">10 crore</b> learners trust us for their preparation </p>
+
+    <div class="login">
+        <label for="phone number"></label>
+        <div class="input-box-india">
+            <img src="/image copy 3.png" id="india-img" width="30px" height="20px" alt="">
+            <p style="margin-left: 8px;">+91</p>
+            <input type="number" id="number" placeholder="Enter your mobile number">
+        </div>
+    </div>
+    <p
+     class="otp">
+        
+      We'll send an OTP for verification  
+     </p>
+    
+        </div>
+    <div class="para2">
+        <img src="PHOTO.png" alt="1q">
+        </div>
+        
+        </div>
+        <button class="button3">Join for free</button>
+        </div>
+        
+        
+
+        <div class="extra">
+            <h1 class="xxtra">
+                Select your goal / exam
+            </h1>
+            <p>
+                <b style="color: rgb(1,189,128);"> 200+ </b> available for your preparation
+            </p>
+         <div class="goal">
+            <label for="goal"></label>
+            <input type="text" class="goal-input" placeholder=" Type the goal / exam you're preparing for">
+         </div>
+         <span class="goal2">
+            <h2>Popular goals</h2>
+         </span>
+         
+
+         
+        </div>
+        <div class="container">
+            <div class="box1">
+                
+                <img src="image copy.png" alt="">
+                <div class="content1"> <h3>UPSC CSE - GS </h3></div>
+                
+
+            </div>
+            <div class="box2">
+                <img src="pic1.png" alt="">
+                <div class="content2"> <h3>IIT JEE </h3></div>
+            </div>
+            <div class="box3">
+                <img src="pic5.jpg" alt="">
+                <div class="content3"> <h3>NEET UG </h3></div>
+
+            </div>
+            <div class="box4">
+                <img src="pic2.jpg" alt="">
+                <div class="content4"> <h3>Bank exams </h3></div>
+
+            </div>
+
+        </div>
+        <div class="container1">
+            <div class="box5">
+                <img src="pic6.jpg" alt="">
+                <div class="content5"> <h3> SSC JE & state AE exams </h3></div>
+            </div>
+            <div class="box6">
+                <img src="pic3.jpg" alt="">
+                <div class="content6"> <h3>CAT & other MBA entrance tests </h3></div>
+
+            </div>
+            <div class="box7">
+                <img src="pic7.jpg" alt="">
+                <div class="content7"> <h3>CBSE class 12 </h3></div>
+            </div>
+            <div class="box8">
+                <img src="pic8.jpg" alt="">
+                 <div class="content8">
+                    <h3>CA Intermediate </h3></div>
+            </div>
+
+
+        </div>
+        <div class="box9">
+            See all goals(200+)
+
+        </div>
+        <br>
+        <!-- about unacademy -->
+        <div class="box10">
+            <img  src="im1.jpg" alt="">
+            <div class="intro">
+                <b style="color: blue; ">INTRODUCING</b>
+                <h1> Unacademy Centres for IIT JEE and NEET UG</h1>
+                <h2 class="inner">Admissions open in Kota,Delhi,Chandigarh,Sikar, Indore and 20+ other cities!</h2>
+                <div class="list">
+                    <ul>1. Learn from top educators in your city</ul>
+                    <ul>2. In-person classes & doubt solving</ul>
+                    <ul>3. Bonus access to online learning</ul>
+                </div>
+                
+                    <button class="buton">Find a centre</button>
+                
+
+            </div>
+
+        </div>
+        <div class="container3">
+            <div class="box11">
+                <img  class="img1"src="im2.jpg" alt="">
+                <h1> Daily live classes</h1> 
+                <p  class="p1 "style="width: 350px;">Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while the class is going on</p>
+
+            </div>
+            <div class="box12">
+                <img  class="img2" src="img3.jpg" alt="">
+                <h1>Practice and revise</h1>
+                <p  class= "p2"style=" width: 350px;">Learning isn't just limited to classes with ourvpractice session, mock tests and lecture notes shared as PDF's for your revision</p>
+            </div>
+            <div class="box13">
+                <img class="img3" src="im4.jpg" alt="">
+                <h1>Learn anytime,anywhere</h1>
+                <p  class=" p3"style="width:350px;">One subscription gets you access to all our live and recorded classes to watch from the comfort of any of  your devices</p>
+                
+            </div>  
+        </div>
+        <div class="container4">
+            
+            <div class="div1">
+                <p class="p11">Get the learning app</p>
+                <p class="class1">Download lessons and learn anytime,anywhere with the Unacademy app</p>
+            </div>
+            <div>
+                <img class="img11" src="im6.jpg"   alt="" height="381px",width="404px" >
+            </div>
+        </div>
+        <div class="container5">
+            <div class="c1">
+                <p class="h1">
+                    Start learning with Unacademy
+                </p>
+                <p class="Pp">
+                    Get unlimited access to structured courses & doubt clearing sessions
+                </p>
+                <button class="butu"> <h3>Start learning </h3></button>
+
+
+
+            </div>
+            <div class="boox1">
+                <img src="im7.jpg" alt="">
+
+            </div>
+            <div class="boox2">
+                <img src="im8.jpg" alt="">
+
+            </div>
+            <div class="boox3">
+                <img src="im9.jpg" alt="">
+
+
+            </div>
+            <div class="boox4">
+                <img src="im10.jpg" alt="">
+
+            </div>
+            <div class="boox5">
+                <img src="im11.jpg" alt="">
+            </div>
+
+        </div>
+        
+            <div class="container6">
+                <div class="61">
+                <div class="d1">
+                    <img class="immg" src="image.png" alt="">
+                    <h2 class="h22">
+                        Unacademy is democratising education,making it accessible to all.Join the revolution,learn on India's largest learning platform.
+                    </h2>
+
+                </div>
+                <div class="main">
+                    <div class="first" style="cursor: pointer;">
+                        <a href="https://www.apple.com/app-store/" target="_blank"> 
+                            <img src="APPSTOROO.jpg" alt="" height="40px"width="100px"> 
+                    </a>
+                    </div>
+                    <div class="second" style="cursor: pointer;"> 
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="googleplay.jpg" alt="" height="40px"width="120px">
+                        </a>
+                    </div> 
+                    </div> 
+                </div>
+                <div class="d3">
+                    <h3 class="h3">Reach out to us</h3>
+                    <p class="pipi">Get your questions answered about learning with Unacademy</p> 
+                    <p class="pipi2">Call +91 8585858585 <br> <br> <br></p>
+                </div>  
+                
+                <div class="p62">
+
+
+                </div>
+                <div class="p621">
+                    <h2 style="font-size: large;"> Company</h2>
+                    <p class="pg1">
+                        About Us <br><br>
+                        Shikshodaya <br><br>
+                        Careers <br><br>
+                        Blogs <br> <br>
+                        <a href="privacy.html" style="text-decoration: none ;color:#7A8B94;">Privacy policy</a> <br> <br>
+                        <a href="terms.html" style="text-decoration: none; color:#7A8B94;">Terms and conditions </a>
+
+
+                    </p>
+
+
+                
+            </div>
+             <div class="p622">
+                <h2 style="font-size:large">Help & support</h2>
+                <p class="pg1">
+                    User Guidelines <br> <br>
+                    Site Map <br> <br>
+                    Refund Policy <br> <br>
+                    Tokedown Policy <br> <br>
+                    Grievance Redressal
+                </p>
+             </div>
+             <div class="p623">
+                <h2 style="font-size: large;">  Company</h2>
+                <p>
+                    <img src="logo.jpg" alt="" class="i">Learner app <br> <br>
+                    <img src="im12.jpg" alt="" class="i">Educator app <br> <br>
+                    <img src="im13.jpg" alt="" class="i">Parent app <br> <br>
+                </p>
+             </div>
+             
+
+            </div>
+
+  
+</body>
+</html>
